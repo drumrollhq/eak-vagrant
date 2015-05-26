@@ -1,0 +1,5 @@
+CREATE USER hindquarters WITH NOCREATEDB NOCREATEROLE LOGIN PASSWORD 'hindquarters';
+CREATE DATABASE hindquarters ENCODING 'UTF8' OWNER hindquarters;
+
+CREATE USER hindquarters_test WITH NOCREATEDB NOCREATEROLE LOGIN PASSWORD 'test';
+CREATE DATABASE hindquarters_test ENCODING 'UTF8' OWNER hindquarters_test;
